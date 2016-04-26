@@ -1,0 +1,55 @@
+Mason Perry
+Doctor Prudence
+CSC 201 Introduction to Programming
+25 April 2016
+Program05 Report
+
+A Simple Role Playing Game Code.
+Using what we learned about Classes, methods, and attributes.
+
+Important Variables:
+
+Starting with the Items folder which was easy to piece together.
+Items.py
+Treasure is the class, there is no object.
+list of definitions, I wanted to make it so items could be (un)equipped/eaten/looked at/picked up. I had the concept, using 0’s and 1’s, on/off, but implementing it just confused me, and it was getting to complex and messy for me to connect them in the world, and to the player.
+
+I used “entity” a lot basically as the being, weather it was a person, mob, or item.
+
+Treasures:
+Weapons - what can be used to fight, worth in gold, and damage they can deal.
+Armory - description, worth, protection.
+Food - gives food their description, nutritional value, worth.
+Bank - lets player know how much gold they have.
+
+Directory.py is the module, after importing the other files.
+I organized each of the items together.
+
+In the Player folder, it was a little more tricky.
+
+Player.py
+Player_info is the class.
+In Name.py, class name, I define, entity, species, experience, health and attack damage, for every character in the game.
+
+In Directory.py, I have a Main Characters, Antagonists, Non-playable Characters, and Enemies. Giving a variety of characters to play as.
+
+I wanted to add an input where the player could choose a character.the main problem I kept having was picturing this code as a computer game, like Minecraft, and not a py game.
+
+Which brings me to Levels I started to create code for it.
+
+I wanted to make it so it would generate the grid, which I know how to do.
+
+################
+#             *#
+#    *         #
+#              #
+#      C     * #
+#    *         #
+#              #
+#*            *#
+################
+
+and the character “C” would spawn in the center which would be 0,0. and then enemies would come in “*” from different angles, toward the character, and the character would eliminate them.
+but I think I was over complicating it. Got frustrated, so I did not.
+
+That was the big problem with this program, I understood what I had to do, but I had no idea how to go about it, even after seeking help.
